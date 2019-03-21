@@ -1,0 +1,36 @@
+user.name=Firstname Lastname
+user.email=user@domain.com
+color.ui=auto
+color.branch.current=yellow reverse
+color.branch.local=yellow
+color.branch.remote=green
+color.diff.meta=yellow bold
+color.diff.frag=magenta bold
+color.diff.old=red bold
+color.diff.new=green bold
+color.status.added=yellow
+color.status.changed=green
+color.status.untracked=cyan
+color.ui=true
+color.diff.whitespace=red reverse
+core.whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+merge.log=true
+merge.ff=false
+diff.mnemonicprefix=true
+diff.renames=copies
+pull.rebase=preserve
+push.default=simple
+rebase.autosquash=true
+rebase.autostash=true
+alias.st=status
+alias.ci=commit
+alias.br=branch
+alias.co=checkout
+alias.df=diff
+alias.dc=diff --cached
+alias.lg=log -p
+alias.lol=log --graph --decorate --pretty=oneline --abbrev-commit
+alias.lola=log --graph --decorate --pretty=oneline --abbrev-commit --all
+alias.ls=ls-files
+alias.me=merge --no-ff
+alias.ign=ls-files -o -i --exclude-standard
